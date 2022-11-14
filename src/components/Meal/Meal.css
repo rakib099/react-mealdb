@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.meal {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.meal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.btn-select {
+    width: 100%;
+    padding: 0.50rem;
+    border-radius: 8px;
+    color: darkblue;
+    background-color:cornsilk;
+    border: 1px solid salmon;
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}

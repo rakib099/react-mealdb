@@ -1,0 +1,33 @@
+.side-bar {
+    background-color: cornsilk;      /* #d7eded, #209797 */
+    border-left: 2px solid salmon;
+    /* border-top: 2px solid salmon; */
+}
+.title {
+    text-align: center;
+    margin-top: 0;
+}
+.items {
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
+.items img {
+    width: 100%;
+}
+img, .name-holder {
+    border-radius: 8px;
+}
+.name-holder {
+    text-align: center;
+    border: 1px solid skyblue;
+}
+.name {
+    margin-bottom: 0.3rem;
+}
+.name-holder > .selected {
+    margin-top: 0;
+}
+.selected span {
+    color:cornflowerblue;
+}
